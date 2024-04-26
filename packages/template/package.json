@@ -1,0 +1,22 @@
+{
+  "name": "@monorepooo/template",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepooo/admin": "1.0.0",
+    "@monorepooo/api": "1.0.0",
+    "@monorepooo/web": "1.0.0",
+    "left-pad": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "echo \"Building template\" && tsc",
+    "lint": "echo \"Linting template\"",
+    "test": "echo \"Testing template\"",
+    "clean": "echo \"Cleaning template\" && rm -rf dist/",
+    "start": "echo \"\nStarting template\" && node dist/index.js"
+  }
+}

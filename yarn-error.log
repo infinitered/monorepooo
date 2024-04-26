@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/trevorcoleman/.asdf/installs/nodejs/20.9.0/bin/node /Users/trevorcoleman/dev/infinitered/.yarn/releases/yarn-1.22.19.cjs init
+
+PATH: 
+  /Users/trevorcoleman/.asdf/plugins/nodejs/shims:/Users/trevorcoleman/.asdf/installs/nodejs/20.9.0/bin:/opt/homebrew/opt/curl/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/trevorcoleman/.asdf/shims:/opt/homebrew/opt/asdf/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/trevorcoleman/.yarn/bin:/Users/trevorcoleman/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:~/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/opt/homebrew/opt/curl/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/trevorcoleman/.yarn/bin:/Users/trevorcoleman/.config/yarn/global/node_modules/.bin:~/bin:/Users/trevorcoleman/.cargo/bin:/Users/trevorcoleman/bin:/Users/trevorcoleman/Library/Android/sdk/platform-tools:/Users/trevorcoleman/Library/Android/sdk/tools:/Users/trevorcoleman/.maestro/bin:/Users/trevorcoleman/dev/infinitered/monorepo-workshop/node_modules/.bin:/Users/trevorcoleman/bin:/Users/trevorcoleman/Library/Android/sdk/platform-tools:/Users/trevorcoleman/Library/Android/sdk/tools:/Users/trevorcoleman/Library/Android/sdk/platform-tools:/Users/trevorcoleman/.maestro/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/trevorcoleman/dev/infinitered/.yarn/releases/yarn-1.22.19.cjs:131557:13)
+      at Interface.emit (node:events:514:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+      at ReadStream.emit (node:events:514:28)
+      at emitKeys (node:internal/readline/utils:371:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:376:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

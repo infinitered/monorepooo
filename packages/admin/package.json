@@ -1,0 +1,19 @@
+{
+  "name": "@monorepooo/admin",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepooo/api": "1.0.0",
+    "@monorepooo/utils": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "echo \"Building admin\" && tsc",
+    "clean": "echo \"Cleaning admin\"  && rm -rf dist/",
+    "lint": "echo \"Linting admin\"",
+    "test": "echo \"Testing admin\""
+  }
+}
