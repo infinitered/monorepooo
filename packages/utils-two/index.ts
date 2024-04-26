@@ -1,3 +1,3 @@
 export function utilsTwo() {
-  return "<utils>";
+  return "<utils-two>";
 }
