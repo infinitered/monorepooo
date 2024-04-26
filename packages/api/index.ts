@@ -6,3 +6,7 @@ export function api() {
 export function sayHello() {
   return "Hello from api package";
 }
+
+export function sayGoodbye() {
+  return "Goodbye from api package";
+}

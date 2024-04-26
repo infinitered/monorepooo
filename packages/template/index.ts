@@ -1,6 +1,6 @@
 import { admin } from "@monorepooo/admin";
 import { web } from "@monorepooo/web";
-import { sayHello } from "@monorepooo/api";
+import { sayHello, sayGoodbye } from "@monorepooo/api";
 export function template() {
   return `(template ${admin()},${web()})`;
 }
@@ -10,3 +10,4 @@ console.log(sayHello());
 console.log("======");
 console.log(template());
 console.log("======");
+console.log(sayGoodbye());
