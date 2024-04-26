@@ -1723,7 +1723,7 @@ __metadata:
   resolution: "monorepooo@workspace:."
   dependencies:
     "@changesets/cli": "npm:^2.27.1"
-    turbo: "npm:^1.13.3"
+    turbo: "npm:latest"
   languageName: unknown
   linkType: soft
 
@@ -2464,7 +2464,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo@npm:^1.13.3":
+"turbo@npm:latest":
   version: 1.13.3
   resolution: "turbo@npm:1.13.3"
   dependencies:

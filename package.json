@@ -10,11 +10,11 @@
   "packageManager": "yarn@4.1.1",
   "scripts": {
     "start": "yarn workspace @monorepooo/template start",
-    "build": "yarn workspace @monorepooo/utils build && yarn workspace @monorepooo/api build && yarn workspace @monorepooo/web build && yarn workspace @monorepooo/admin build && yarn workspace @monorepooo/template build",
-    "clean": "yarn workspace @monorepooo/utils clean && yarn workspace @monorepooo/api clean && yarn workspace @monorepooo/web clean && yarn workspace @monorepooo/admin clean && yarn workspace @monorepooo/template clean"
+    "build": "turbo run build",
+    "clean": "turbo run clean"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1",
-    "turbo": "^1.13.3"
+    "turbo": "latest"
   }
 }

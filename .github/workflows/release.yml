@@ -35,7 +35,7 @@ jobs:
         run: yarn install --immutable
 
       - name: Build packages
-        run: turbo build
+        run: yarn turbo build
 
       - name: Version Packages or Publish to npm
         id: changesets
