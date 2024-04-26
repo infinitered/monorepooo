@@ -1,0 +1,15 @@
+{
+  "name": "@monorepooo/utils-two",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo \"Building utils-two\" && tsc",
+    "clean": "echo \"Cleaning utils-two\" && rm -rf dist/",
+    "lint": "echo \"Linting utils-two\"",
+    "test": "echo \"Testing utils-two\""
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

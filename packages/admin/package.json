@@ -1,11 +1,12 @@
 {
   "name": "@monorepooo/admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "license": "MIT",
   "dependencies": {
     "@monorepooo/api": "1.0.0",
-    "@monorepooo/utils": "1.0.0"
+    "@monorepooo/utils": "1.0.0",
+    "@monorepooo/utils-two": "1.0.0"
   },
   "devDependencies": {
     "typescript": "^5.4.5"
