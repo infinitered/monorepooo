@@ -42,7 +42,7 @@ jobs:
         uses: changesets/action@v1
         with:
           version: yarn version
-          publish: echo "publish"
+          publish: yarn publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
