@@ -304,22 +304,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepooo/admin@npm:1.0.2, @monorepooo/admin@workspace:packages/admin":
+"@monorepooo/admin@npm:1.0.3, @monorepooo/admin@workspace:packages/admin":
   version: 0.0.0-use.local
   resolution: "@monorepooo/admin@workspace:packages/admin"
   dependencies:
-    "@monorepooo/api": "npm:1.1.0"
-    "@monorepooo/utils": "npm:1.0.0"
+    "@monorepooo/api": "npm:1.2.0"
+    "@monorepooo/utils": "npm:1.0.1"
     "@monorepooo/utils-two": "npm:1.0.1"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
 
-"@monorepooo/api@npm:1.1.0, @monorepooo/api@workspace:packages/api":
+"@monorepooo/api@npm:1.2.0, @monorepooo/api@workspace:packages/api":
   version: 0.0.0-use.local
   resolution: "@monorepooo/api@workspace:packages/api"
   dependencies:
-    "@monorepooo/utils": "npm:1.0.0"
+    "@monorepooo/utils": "npm:1.0.1"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
@@ -328,9 +328,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@monorepooo/template@workspace:packages/template"
   dependencies:
-    "@monorepooo/admin": "npm:1.0.2"
-    "@monorepooo/api": "npm:1.1.0"
-    "@monorepooo/web": "npm:1.0.1"
+    "@monorepooo/admin": "npm:1.0.3"
+    "@monorepooo/api": "npm:1.2.0"
+    "@monorepooo/web": "npm:1.0.2"
     left-pad: "npm:^1.0.0"
     typescript: "npm:^5.4.5"
   languageName: unknown
@@ -344,7 +344,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@monorepooo/utils@npm:1.0.0, @monorepooo/utils@workspace:packages/utils":
+"@monorepooo/utils@npm:1.0.1, @monorepooo/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@monorepooo/utils@workspace:packages/utils"
   dependencies:
@@ -352,12 +352,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@monorepooo/web@npm:1.0.1, @monorepooo/web@workspace:packages/web":
+"@monorepooo/web@npm:1.0.2, @monorepooo/web@workspace:packages/web":
   version: 0.0.0-use.local
   resolution: "@monorepooo/web@workspace:packages/web"
   dependencies:
-    "@monorepooo/api": "npm:1.1.0"
-    "@monorepooo/utils": "npm:1.0.0"
+    "@monorepooo/api": "npm:1.2.0"
+    "@monorepooo/utils": "npm:1.0.1"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
